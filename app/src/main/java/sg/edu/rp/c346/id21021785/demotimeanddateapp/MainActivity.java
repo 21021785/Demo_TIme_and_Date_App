@@ -11,17 +11,17 @@ import android.widget.TimePicker;
 
 public class MainActivity extends AppCompatActivity {
 
+    DatePicker dp;
+    TimePicker tp;
+    Button btnDisplayDate;
+    Button btnDisplayTime;
+    TextView tvDisplay;
+    Button btnReset;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        DatePicker dp;
-        TimePicker tp;
-        Button btnDisplayDate;
-        Button btnDisplayTime;
-        TextView tvDisplay;
-        Button btnReset;
 
         dp = findViewById(R.id.datePicker);
         tp = findViewById(R.id.timePicker);
